@@ -1,5 +1,5 @@
 $ (function(){
-	 console.log($(document).height())
+	
 	 $(window).scroll(function () {
     if ($(this).scrollTop() >= 280) {
       $('.main_1 h2').addClass("fadeIn animated");
